@@ -54,7 +54,7 @@ model:
       params:
         embed_dim: 3
         monitor: "val/rec_loss"
-        ckpt_path: "/home/unist/latent-diffusion/from_A100/2023-05-24T03-27-36_eo_autoencoder_f4_2023_v3/checkpoints/epoch=000076.ckpt" #TODO eo_model
+        ckpt_path: "/gpfs/home/lait/latent-diffusion/logs/2023-05-25T22-43-23_eo_autoencoder_f4_2023_v5/checkpoints/epoch=000055.ckpt" #TODO eo_model
         ddconfig:
           double_z: True
           z_channels: 3
@@ -74,7 +74,7 @@ model:
       params:
         embed_dim: 3
         monitor: "val/rec_loss"
-        ckpt_path: "/home/lait/from_A100/2023-05-22T14-47-51_sar_autoencoder_f4_2023_v3/checkpoints/epoch=000020.ckpt" #TODO sar_model
+        ckpt_path: "/home/lait/from_A100/2023-05-22T14-47-51_sar_autoencoder_f4_2023_v3/checkpoints/epoch=000021.ckpt" #TODO sar_model
         ddconfig:
           double_z: True
           z_channels: 3
