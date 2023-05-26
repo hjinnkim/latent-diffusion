@@ -1376,6 +1376,14 @@ class EOValidationV2(EOBaseV2):
     def __init__(self, flip_p=0, **kwargs):
         super().__init__(eo_file='/home/unist/multiearch2023/train_test/sent2_0per_test.nc', flip_p=flip_p, **kwargs)
         
+class EOTrainV5(EOBaseV5):
+    def __init__(self, **kwargs):
+        super().__init__(eo_file='/home/lait/dataset/multiearth2023_dataset/sent2_1per_train.nc', **kwargs)
+        
+class EOValidationV5(EOBaseV5):
+    def __init__(self, flip_p=0, **kwargs):
+        super().__init__(eo_file='/home/lait/dataset/multiearth2023_dataset/sent2_1per_test.nc', flip_p=flip_p, **kwargs)
+        
         
         
 

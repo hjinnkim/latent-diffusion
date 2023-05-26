@@ -74,7 +74,7 @@ model:
       params:
         embed_dim: 3
         monitor: "val/rec_loss"
-        ckpt_path: "/home/unist/latent-diffusion/from_A100/2023-05-22T14-47-51_sar_autoencoder_f4_2023_v3/checkpoints/epoch=000020.ckpt" #TODO sar_model
+        ckpt_path: "/home/lait/from_A100/2023-05-22T14-47-51_sar_autoencoder_f4_2023_v3/checkpoints/epoch=000020.ckpt" #TODO sar_model
         ddconfig:
           double_z: True
           z_channels: 3
