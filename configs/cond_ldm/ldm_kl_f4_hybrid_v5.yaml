@@ -93,7 +93,7 @@ data:
   target: main.DataModuleFromConfig
   params:
     batch_size: 30
-    num_workers: 0
+    num_workers: 2
     wrap: True
     train:
       target: ldm.data.multiearth2023.SARToEOPairTrainV7
